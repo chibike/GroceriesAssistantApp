@@ -1,0 +1,18 @@
+/* ---- License ----
+* This project belongs to Blink, and was developed by Chibuike Okpaluba (26/10/2016)
+* For all references/modifications made to any file/material used in this project
+* an email should be sent to <EMAIL:co607@live.mdx.ac.uk, SUBJECT:"GROCERIES ASSISTANT PROJECT LICENSE">
+* Thanks.
+*/
+
+/* ----  Description ----
+* This file contains the cmd prompt code to convert the ui files
+* to python files
+*
+* The First command sets the current working directory to the project folder
+*/
+
+chdir C:\Python27\GroceriesAssistant
+C:\Python27\Lib\site-packages\PyQt4\pyuic4.bat -x Login.ui -o Login.py
+C:\Python27\Lib\site-packages\PyQt4\pyuic4.bat -x CreateNewAccount.ui -o CreateNewAccount.py
+C:\Python27\Lib\site-packages\PyQt4\pyuic4.bat -x SecurityTest.ui -o SecurityTest.py
